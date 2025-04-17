@@ -5,22 +5,28 @@ This script is using several parameters:
 
 ### Format of the output
 
-with
+-W with \
+(optional) Default: 1920
 
-hight
+-H hight \
+(optional) Default: 1080
 
 ### Name without extention of the input files
 
-inputfile
+-i inputfile \
+(mandatory)
 
 ### Name without extention of the WAV file
 
-soundfile
+-s soundfile \
+(optional) If not given, the video is created without sound
 
 ### Duration of the last picture
 
-lastlength
+-l lastlength \
+(optional) Default: 4
 
 ### Number of picture per temp video
 
-chunksize
+-c chunksize \
+(optional) Default: 4
